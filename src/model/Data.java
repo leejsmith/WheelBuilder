@@ -181,10 +181,18 @@ public class Data {
 				Element hubType = doc.createElement("hubType"); //adds the current stock quantity of the rim to the node
 				hubType.appendChild(doc.createTextNode(String.valueOf(h.getHubType().name())));
 				hub.appendChild(hubType);
+				
+				Element hubHole = doc.createElement("hubHole"); //adds the current stock quantity of the rim to the node
+				hubHole.appendChild(doc.createTextNode(String.valueOf(h.getHubHole())));
+				hub.appendChild(hubHole);
+				
+				Element hubStockQuant = doc.createElement("hubStockQuant"); //adds the current stock quantity of the rim to the node
+				hubStockQuant.appendChild(doc.createTextNode(String.valueOf(h.getHubStockQuant())));
+				hub.appendChild(hubStockQuant);
 			}
-			XMLFileWrite(doc, "rims");
+			XMLFileWrite(doc, "hubs");
 		} catch (IndexOutOfBoundsException ioob) {
-			System.out.println("Rims List Empty");
+			System.out.println("Hubs List Empty");
 		} catch (ParserConfigurationException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
