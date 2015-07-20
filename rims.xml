@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WheelBuilder>
+  <rim rimID="1">
+    <rimName>Rim1</rimName>
+    <rimDiameter>675</rimDiameter>
+    <rimWidth>23</rimWidth>
+    <rimDepth>20</rimDepth>
+    <rimHole>32</rimHole>
+    <rimStockQuant>3</rimStockQuant>
+  </rim>
+  <rim rimID="2">
+    <rimName>Rim2</rimName>
+    <rimDiameter>645</rimDiameter>
+    <rimWidth>50</rimWidth>
+    <rimDepth>20</rimDepth>
+    <rimHole>36</rimHole>
+    <rimStockQuant>6</rimStockQuant>
+  </rim>
+</WheelBuilder>
